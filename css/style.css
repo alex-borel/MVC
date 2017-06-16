@@ -1,0 +1,48 @@
+.Container1, .Container2 {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: solid 2px red;
+}
+
+.circle {
+    position: absolute;
+    left: 25px;
+    width: 300px;
+    height: 300px;
+    background: silver;
+    border-radius: 150px;
+}
+
+.arrowH {
+    position: absolute;
+    width: 9px;
+    height: 100px;
+    top: 100px;
+    left: 170px;
+    border-radius: 4px;
+    background: black;
+    transform-origin: 50% 100%;
+}
+
+.arrowM {
+    position: absolute;
+    top: 80px;
+    left: 173px;
+    width: 5px;
+    height: 120px;
+    border-radius: 4px;
+    background: black;
+    transform-origin: 50% 100%;
+}
+
+.arrowS {
+    position: absolute;
+    top: 60px;
+    left: 175px;
+    width: 2px;
+    height: 140px;
+    border-radius: 2px;
+    background: black;
+    transform-origin: 50% 100%;
+}
